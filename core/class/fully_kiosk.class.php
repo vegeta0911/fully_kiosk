@@ -1173,7 +1173,7 @@ public static function initInfosMap(){
 			foreach (eqLogic::byType('fully_kiosk') as $fully_kiosk)
 			{
 				if($fully_kiosk->getConfiguration('refreshDelay')=='5'){
-					$found = false;
+					$notfound = false;
 					$fully_kiosk->refreshWidget();
 				}
 			}
