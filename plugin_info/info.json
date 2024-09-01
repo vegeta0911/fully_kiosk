@@ -8,6 +8,6 @@
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,	
 	"category" : "monitoring",
-	"changelog" : "https://vegeta0911.github.io/fullyKiosK/changelog.html",
+	"changelog" : "https://vegeta0911.github.io/changelog.html",
         "documentation" : "https://vegeta0911.github.io/fully_kiosk/"
 }
