@@ -3,7 +3,7 @@
 	"name" : "FullyKiosK",
 	"description" : "Plugin FullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk",
 	"licence" : "AGPL",
-	"author" : "Ssc",
+	"author" : "vegeta0911",
 	"require" : "4.0",
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,	
