@@ -1,0 +1,21 @@
+{
+    "name": "jeedom/fullykiosk",
+    "description": "Plugin Jeedom pour la récupérer les informations et piloter ses appareils LG ThinQ",
+    "homepage" : "https://github.com/Flobul/Jeedom-LGThinq2",
+    "license" : "AGPL-3.0-or-later",
+    "authors" : [{
+            "name" : "vegeta0911",
+            "email" : "vegeta0911@hotmail.fr"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "php-mqtt/client":"^2.1",
+        "ext-json": "*",
+        "ext-pcntl": "*"
+    },
+    "config" : {
+        "optimize-autoloader": true,
+        "autoloader-suffix": "fully_kiosk"
+    }
+}
