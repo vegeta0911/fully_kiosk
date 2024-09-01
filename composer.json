@@ -1,7 +1,6 @@
 {
     "name": "jeedom/fullykiosk",
-    "description": "Plugin Jeedom pour la récupérer les informations et piloter ses appareils LG ThinQ",
-    "homepage" : "https://github.com/Flobul/Jeedom-LGThinq2",
+    "description": "Plugin Jeedom pour la récupérer les informations de l'application Fully KiosK",
     "license" : "AGPL-3.0-or-later",
     "authors" : [{
             "name" : "vegeta0911",
