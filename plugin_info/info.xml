@@ -4,7 +4,7 @@
 	<name>fullykiosk</name>
 	<description>Plugin fullykiosk : gestion tablettes et smartphones utilisant l'application fullykiosk</description>
 	<licence>AGPL</licence>
-	<author>ssc</author>
+	<author>vegeta0911</author>
 	<installation>Aucune</installation>
 	<require>4.0</require>
 	<category>monitoring</category>
