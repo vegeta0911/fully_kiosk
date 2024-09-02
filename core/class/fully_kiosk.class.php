@@ -1348,10 +1348,10 @@ public static function initInfosMap(){
 		public function postSave() {
 			self::initInfosMap();
 			$order = 0;
-			if(config::byKey('fully_kioskMQTT', 'fully_kiosk', false) == false){
+			/*if(config::byKey('fully_kioskMQTT', 'fully_kiosk', false) == false){
 				log::add('fully_kiosk', 'debug', ' No active MQTT, Daemon stopped  ' );
 				self::deamon_stop();
-			}
+			}*/
 
 
 			switch ($this->getConfiguration('refreshDelay','')){
