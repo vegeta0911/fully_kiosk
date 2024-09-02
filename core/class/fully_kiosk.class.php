@@ -1174,6 +1174,7 @@ public static function initInfosMap(){
 			{
 				if($fully_kiosk->getConfiguration('refreshDelay')=='5'){
 					$notfound = false;
+					$fully_kiosk->getInformations();
 					$fully_kiosk->refreshWidget();
 				}
 			}
