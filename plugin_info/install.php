@@ -20,13 +20,13 @@ require_once dirname(__FILE__) . '/../../../core/php/core.inc.php';
 
 function fully_kiosk_install() {
   
-    $cron = cron::byClassAndFunction('fully_kiosk', 'daemon');
+    $cron = cron::byClassAndFunction('fully_kiosk');
     if (!is_object($cron)) {
         $cron = new cron();
         $cron->setClass('fully_kiosk');
-        $cron->setFunction('daemon');
+        //$cron->setFunction('daemon');
         $cron->setEnable(1);
-        $cron->setDeamon(1);
+        //$cron->setDeamon(1);
         $cron->setSchedule('* * * * *');
         $cron->setTimeout('1440');
         $cron->save();
@@ -35,13 +35,13 @@ function fully_kiosk_install() {
 }
 
 function fully_kiosk_update() {
-    $cron = cron::byClassAndFunction('fully_kiosk', 'daemon');
+    $cron = cron::byClassAndFunction('fully_kiosk');
     if (!is_object($cron)) {
         $cron = new cron();
         $cron->setClass('fully_kiosk');
-        $cron->setFunction('daemon');
+       // $cron->setFunction('daemon');
         $cron->setEnable(1);
-        $cron->setDeamon(1);
+        //$cron->setDeamon(1);
         $cron->setSchedule('* * * * *');
         $cron->setTimeout('1440');
         $cron->save();
@@ -65,7 +65,7 @@ function fully_kiosk_update() {
 function fully_kiosk_remove() {
 
 function MQTT_remove() {
-    $cron = cron::byClassAndFunction('fully_kiosk', 'daemon');
+    $cron = cron::byClassAndFunction('fully_kiosk');
     if (is_object($cron)) {
         $cron->stop();
         $cron->remove();
