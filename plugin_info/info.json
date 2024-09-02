@@ -10,8 +10,7 @@
 	"category" : "monitoring",
 	"changelog" : "https://vegeta0911.github.io/fully_kiosk/changelog.html",
         "documentation" : "https://vegeta0911.github.io/fully_kiosk/",
-	"utilization" : "ATTENTION : Non supporté : Debian Buster(10), Bullseye(11)"
-
+	"utilization" : "ATTENTION : Non supporté : Debian Buster(10), Bullseye(11)",
 	"language": [
 		"fr_FR"
 	],
