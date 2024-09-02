@@ -112,12 +112,12 @@ $eqLogics = eqLogic::byType($plugin->getId());
 							<input class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="password" type="password" placeholder="{{saisir le mot de passe}}">
 						</div>
 					</div>
-					<div class="form-group">
+					<!--div class="form-group">
 						<label class="col-sm-3 control-label">{{MQTT actif sur tablette}}</label>
 						<div class="col-sm-3">
 							<input class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="mqttEnabled" type="checkbox" placeholder="{{}}">
 						</div>
-					</div>					
+				       </div-->					
 					<div class="form-group">
 
 						<label class="col-sm-3 control-label">{{Délai de rafraîchissement en minutes}}</label>
