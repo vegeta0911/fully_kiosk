@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^7.4.33|^8.0",
         "php-mqtt/client":"^2.1",
         "ext-json": "*",
         "ext-pcntl": "*"
