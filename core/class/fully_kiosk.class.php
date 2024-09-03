@@ -1335,13 +1335,13 @@ public static function initInfosMap(){
 
 
 				$json = json_decode($jsondata,true);
-				log::add('fully_kiosk', 'debug', __METHOD__.' '.__LINE__.' $mqtt new'.$json['mqttEnabled'] . ' old' . $this->getConfiguration('mqttEnabled'));
+				//log::add('fully_kiosk', 'debug', __METHOD__.' '.__LINE__.' $mqtt new'.$json['mqttEnabled'] . ' old' . $this->getConfiguration('mqttEnabled'));
 
-				if($this->getConfiguration('mqttEnabled') != $json['mqttEnabled'])
+				/*if($this->getConfiguration('mqttEnabled') != $json['mqttEnabled'])
 				{
 					$this->setConfiguration('mqttEnabled',$json['mqttEnabled']);
 					$this->save();
-				}
+				}*/
 				return true;
 			}
 		}
