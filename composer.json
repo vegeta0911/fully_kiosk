@@ -16,5 +16,8 @@
     "config" : {
         "optimize-autoloader": true,
         "autoloader-suffix": "fully_kiosk"
+        "platform": {
+            "php": "7.4"
+        }
     }
 }
