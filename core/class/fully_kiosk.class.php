@@ -19,7 +19,6 @@
 
 /* * ***************************Includes********************************* */
 require_once dirname(__FILE__) . '/../../../../core/php/core.inc.php';
-require_once __DIR__ . '/../../vendor/autoload.php';
 
 class fully_kiosk extends eqLogic {
 	public static $_widgetPossibility = array('custom' => true);
