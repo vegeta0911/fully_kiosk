@@ -2,7 +2,7 @@
 
 En cas d'absence de note dans ce chapitre, les mises à jour ne concernent que la doc et des corrections mineures
 
-## 07/09/2024
+## 07/12/2024
 - logs fully_kiosk_ packages supprimé
   
 ## 01/09/2024
