@@ -7,8 +7,7 @@
 	"require" : "4.4",
 	"pluginVersion": "1.0",
         "os" : {
-		"min" : 11,
-		"max" : 12.99
+		"min" : 11
         },
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,	
