@@ -12,8 +12,8 @@
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,	
 	"category" : "monitoring",
-	"changelog" : "https://vegeta0911.github.io/documentation/plugins/fr_FR/FullyKiosK/changelog",
-        "documentation" : "https://vegeta0911.github.io/documentation/plugins/fr_FR/FullyKiosK",
+	"changelog" : "https://vegeta0911.github.io/documentation/plugins/fr_FR/FullyKiosk/changelog",
+        "documentation" : "https://vegeta0911.github.io/documentation/plugins/fr_FR/FullyKiosk",
 	"utilization" : "ATTENTION : Non supporté : Debian Buster(10)",
 	"language": [
 		"fr_FR"
